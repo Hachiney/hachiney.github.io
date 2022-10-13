@@ -1,0 +1,781 @@
+
+
+@font-face {  font-family: 'Custom Font';font-style: normal;  font-display: swap; /* Read next point */  unicode-range: U+000-5FF; /* Download only latin glyphs */  src: local('Custom Font')}
+@import url(https://fonts.googleapis.com/css?family=Slabo);
+@import url('http://fonts.cdnfonts.com/css/adorage');
+@import url('http://fonts.cdnfonts.com/css/aicho');
+@import url('http://fonts.cdnfonts.com/css/firgine');
+
+
+
+h1 {
+  line-height: 1;
+  margin-bottom: -50px;
+  margin-top: 150px;
+}
+
+.master {
+  margin: 100px;
+  margin-bottom: 0;
+  padding: 150px;
+  height: 10;
+}
+
+.story-paragraph {
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 300px;
+  text-align: left;
+  font-size: 35px;
+  color: #D4E6F1;
+  font-family: 'PT Sans Caption', sans-serif;
+  height: 1.5em;
+}
+
+.timeline-image {
+  margin: 200px;
+}
+
+
+} */
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+/* Introduction */
+.carousel {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #d9dbd9;
+  overflow: scroll;
+}
+
+#social {
+  padding: 2% 15% 2%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.text {
+  margin-top: 5px;
+  margin-bottom: 15%;
+  text-align: center;
+  color: #313331;
+  font-family: "firgine";
+  font-size: 25px;
+}
+
+.career-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 15px;
+}
+
+#title {
+  background-color: #000;
+}
+
+.framework {
+  padding: 4% 15%;
+  background-color: #000;
+}
+
+.white-framework {
+  padding: 0.05% 0%;
+  background-color: #fff;
+  text-align: center;
+}
+
+.bottom-framework {
+  padding: 10px;
+  background-color: #000;
+  text-align: center;
+}
+
+.download-button {
+  font-family: "firgine";
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+@media (max-width: 1150px) {
+
+  .download-button {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1%;
+  }
+  .btn-group-lg>.btn, .btn-lg {
+    font-size: 1rem;
+    line-height: 1;
+}
+  }
+
+
+.intro {
+  font-family: 'firgine', sans-serif;
+  color: #D4E6F1;
+  font-size: 50px;
+  margin-top: 80px;
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.ques {
+  font-family: 'firgine';
+  color: #393939;
+  font-size: 40px;
+  margin-top: 30px;
+  padding: 40px;
+  text-align: auto;
+}
+
+
+.shade {
+  font-size: 40px;
+  font-family: 'firgine';
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.titles {
+  font-size: 80px;
+  margin-top: 80px;
+  padding: 40px;
+  text-align: center;
+}
+
+.name {
+  margin-top: 80px;
+  line-height: 0.2;
+  font-family: 'firgine', sans-serif;
+  font-size: 100px;;
+  padding: 40px;
+  text-align: center;
+}
+
+
+.container-slede {
+  padding: 3% 15%;
+}
+
+.container-fluid {
+  padding: 10px;
+}
+
+/* Nav-Bar Section */
+.navbar {
+  height: 6em;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 25px;
+  font-family: 'firgine', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #D4E6F1;
+  font-size: 30px;
+  font-family: "firgine";
+}
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .navbar-brand {
+    padding: 0 0.7em;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 0em 0;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    margin: 0 1em;
+  }
+}
+
+.navbar .navbar-nav .nav-item {
+  position: relative;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /* background-color: #fff; */
+  width: 0%;
+  content: "";
+  height: 4px;
+  color: #fff;
+  background: linear-gradient(271deg, #f093b0 70%, #edca85 94%);
+  -webkit-background-clip: baseline;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar .navbar-nav .nav-item:hover::after {
+  width: 100%;
+}
+
+.navbar .navbar-nav .nav-item::after {
+  transition: all 0.5s;
+}
+
+/* body {
+  font-family: 'Source Sans Pro', Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+} */
+
+/* History */
+.mystory {
+  background-color: #000;
+  padding: 5% 15%;
+}
+
+:root {
+  /* background: linear-gradient(271deg,#a0e9ff 30%,#a162e8 50%,#f093b0 70%,#edca85 94%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  --primary: #d9dbd9;
+  --primary-gradient: linear-gradient(45deg, #153c7e 0%, #37a9e1 100%);
+}
+
+.section-header {
+  text-align: center;
+}
+
+.section-header h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.section-header hr {
+  border: 1px solid #fff;
+  width: 56px;
+}
+
+.bg-gradient_solid {
+  margin-top: 300px;
+  background: #000;
+  color: #fff;
+}
+
+.steps {
+  position: relative;
+  margin-top: 32px;
+}
+
+.steps::after {
+  content:"";
+  position: absolute;
+  width: 1px;
+  background-color: white;
+  opacity: 0.4;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+.steps .content p {
+  color: #676767;
+  font-size: 16px;
+}
+
+.steps .content h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: #676767;
+}
+
+.steps-container {
+  position: relative;
+  background-color: inherit;
+  width: calc(50% + 32px);
+}
+
+.steps-container .content {
+  padding: 32px;
+  background-color: white;
+  position: relative;
+  border-radius: 0px 0px 80px 0px;
+  box-shadow: 0px 16px 27px rgb(0 11 30 / 10%);
+}
+
+.steps .steps-container:nth-child(even) {
+  left: calc(50% - 32px);
+  flex-direction: row-reverse;
+}
+
+.steps-container {
+  display: flex;
+}
+
+.steps .steps-container .date {
+  content: '';
+  font-weight: 900;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 10px;
+  width: 62px;
+  height: 62px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  flex-shrink: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 777;
+}
+
+.step-line {
+  width: 40px;
+  background-color: #fff;
+  height: 1px;
+  margin-top: 31px;
+  opacity: 0.4;
+  flex-shrink: 0;
+}
+
+@media (max-width: 767px) {
+  .steps::after {
+    left: 32px;
+  }
+
+  .steps-container {
+    left: 0;
+    flex-direction: row-reverse;
+    width: auto;
+    margin-bottom: 16px;
+  }
+
+  .steps .steps-container:nth-child(even) {
+    left: 0;
+  }
+
+  .
+}
+
+/* End History */
+/* Social-icons */
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.social-icons .social-icon:last-child {
+  margin-right: 0;
+}
+
+.social-icons .social-icon:hover {
+  background-color: #D4E6F1;
+}
+
+/* .codeLink {
+  font-family: "firgine";
+  color: red;
+  font-size: 25px;
+}
+
+.codeLink .codeLink:hover {
+  color: #D4E6F1;
+  font-size: 25px;
+} */
+
+/* End Social-icons */
+
+/* CSS for Hobbis */
+.hobby-gallery {
+  padding: 4px;
+  background-color: #191212;
+}
+
+
+
+.container-h {
+  border-radius: 25px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  height: 700px;
+  background: #222;
+}
+
+@media screen and (max-width: 1600px) {
+  .container-h {
+    border-radius: 25px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    height: 550px;
+    background: #222;
+  }
+}
+
+.container-h .clip {
+  border-radius: 25px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.container-h .clip.clip1 {
+  background: url(../images/dc.png);
+  background-size: cover;
+  clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
+}
+
+.container-h .clip.clip2 {
+  background: url(../images/beach.png);
+  /* url(https://unsplash.it/g/800/500); */
+  background-size: cover;
+  clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
+}
+
+.container-h .clip.clip3 {
+  background: url(../images/mntn.png);
+  background-size: cover;
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
+}
+
+.container-h:hover .clip {
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.container-h .clip:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.container-h .clip .content {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 70%;
+  padding: 20px;
+  background: #fff;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.hobby-list {
+  margin-top: 3%
+  font-family: 'firgine';
+  font-size: 60px;
+  color:#D4E6F1;
+}
+
+.hobby-par {
+  font-family: 'Slabo';
+  font-size: 30px;
+  color:#D4E6F1;
+  padding: 1% 12% 10%;
+  text-align: left;
+}
+
+.project-par {
+  font-family: 'Slabo';
+  font-size: 30px;
+  color:#D4E6F1;
+  padding: 1% 12% 0%;
+  text-align: left;
+}
+
+.git-btn {
+  margin-top: 0;
+  margin-left: 12%;
+  margin-bottom: 7%;
+}
+
+
+
+
+/*END CSS for Hobbis */
+
+
+/* CSS for Skills */
+
+.timeline {
+  width: 80%;
+  background-color: #000;
+  color: #fff;
+  padding: 30px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+}
+
+.timeline ul {
+  list-style-type: none;
+  margin-left: 100px;
+  border-left: 2px solid #fff;
+  padding: 10px 5px;
+}
+
+.timeline ul li {
+  padding: 0% 0% 7%;
+  position: relative;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.timeline ul li span {
+  display: inline-block;
+  /* background-color:#fff; */
+  border-radius: 25px;
+  padding: 2px 5px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.timeline ul li .content h3 {
+  font-family: "firgine";
+  color: #D4E6F1;
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+.timeline ul li .content h2 {
+  font-family: "firgine";
+  padding: 0 15%;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.timeline ul li .content p {
+  font-family: PT Sans Caption;
+  padding: 0% 10%;
+  font-size: 25px;
+}
+
+.timeline ul li:before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: -11px;
+  top: 28px;
+  transition: .5s;
+}
+
+.timeline ul li:hover {
+  background-color: #071f2a;
+  border-radius: 15px 50px 30px;
+}
+
+.timeline ul li:hover:before {
+  background-color: #edca85;
+  box-shadow: 0px 0px 10px 2px #0F0;
+}
+
+/* End of CSS for Skills */
+/* Css for Education */
+.degree-par {
+  font-family: 'firgine';
+  font-size: 40px;
+  color:#D4E6F1;
+  padding: 0% 5% 5%;
+  text-align: center;
+}
+
+
+.school {
+  margin-bottom: 15%;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, .2));
+  font-size: 60px;
+}
+
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+}
+
+.copyright {
+  color: #505050;
+  text-align: left;
+  font-size: 10px;
+  margin: 2px;
+}
+
+.btnb {
+  position: relative;
+  display: inline-block;
+  border-radius: 25px;
+  line-height: 40px;
+  height: 40px;
+  padding: 0 2rem;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.25s ease-out;
+  text-decoration: none;
+
+  &::before {
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    transition: all ease-in-out 0.4s;
+    -webkit-transform: scale(0);
+    border-radius: 25px;
+    opacity: 0;
+  }
+
+  &::before {
+    border: 2px solid $color-primary;
+  }
+
+  &:hover,
+  &:active {
+    &::before {
+      opacity: 1;
+      -webkit-transform: scale(1);
+    }
+  }
+
+  &.btn-primary {
+    border: 2px solid $color-secondary;
+    background: $white;
+    color: $black;
+    transition: all ease-in-out 0.5s;
+
+    &:hover,
+    &:active {
+      border-color: $color-secondary;
+    }
+
+    &::before {
+      border: 2px solid $color-primary;
+    }
+  }
+
+  &.btn-secondary {
+    border: 2px solid $white;
+    background: transparent;
+    color: $white;
+
+    &:hover,
+    &:active {
+      background: $white;
+      color: $color-primary;
+    }
+  }
+
+  &.btn-tertiary {
+    border: 2px solid $color-secondary;
+    background: $color-secondary;
+    color: $white;
+
+    &:active,
+    &:hover {
+      border-color: $color-primary;
+      background: $color-primary;
+      color: $white;
+    }
+
+    &::before {
+      border: 2px solid $white;
+    }
+  }
+}
+
+.containerb {
+  padding: 1rem;
+  text-align: center;
+
+  &-black {
+    background: $black;
+  }
+
+  h2 {
+    margin: 0;
+
+    &:after {
+      content: '';
+      display: block;
+      height: 2px;
+      width: 100px;
+      margin: 15px auto 0 auto;
+      background: $color-secondary;
+    }
+  }
+}
+
+
+
+/* skills section */
+.slide-content {
+  margin: 8px;
+  width: 250px;
+  height: 140px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.slid-er {
+  height: 156px; /* slide-content height + 2*margin */
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.slid-er .slides {
+  display: flex;
+}
+.slid-er .slide {
+  width: 258px; /* slide-content width + margin */
+}
+
+
+
+/*End of skills section */
+
+@keyframes waviy {
+  0%, 40%, 100% {
+    transform: translateY(0)
+  }
+
+  20% {
+    transform: translateY(-20px)
+  }
+
+  /* END of Css for Education */
