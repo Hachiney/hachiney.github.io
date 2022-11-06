@@ -1,7 +1,7 @@
 
 
 @font-face {  font-family: 'Custom Font';font-style: normal;  font-display: swap; /* Read next point */  unicode-range: U+000-5FF; /* Download only latin glyphs */  src: local('Custom Font')}
-@import url(https://fonts.googleapis.com/css?family=Slabo);
+@import url('https://fonts.googleapis.com/css?family=Slabo');
 @import url('http://fonts.cdnfonts.com/css/adorage');
 @import url('http://fonts.cdnfonts.com/css/aicho');
 @import url('http://fonts.cdnfonts.com/css/firgine');
